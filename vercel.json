@@ -1,0 +1,8 @@
+{
+  "installCommand": "cd prime-code-website && npm install --include=dev",
+  "buildCommand": "cd prime-code-website && npm run build",
+  "outputDirectory": "prime-code-website/dist",
+  "rewrites": [
+    { "source": "/((?!assets/).*)", "destination": "/index.html" }
+  ]
+}
